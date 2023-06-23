@@ -1,0 +1,105 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  color: ghostwhite;
+}
+
+.sun {
+  background-image: url("./images/hot.jpg");
+  background-size: cover;
+  color: rgb(108, 108, 110);
+}
+
+.snow {
+  background-image: url("./images/snow.jpg");
+  background-size: cover;
+  color: rgb(67, 67, 69);
+}
+
+.rain {
+  background-image: url("./images/rain.jpg");
+  background-size: cover;
+}
+
+.clouds {
+  background-image: url("./images/clouds.jpg");
+  background-size: cover;
+}
+
+.fog {
+  background-image: url("./images/fog.jpg");
+  background-size: cover; color: rgb(108, 108, 110);
+}
+
+.container-app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+h2 {
+  font-size: 2.3rem;
+}
+
+.icon-weather i {
+  font-size: 5rem;
+  padding: 2rem 0;
+}
+.date {
+  font-size: 1.4rem;
+}
+
+.city {
+  padding: 5px 0 0 0;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.city i {
+  padding: 10px;
+}
+.city p {
+  font-size: 1.2rem;
+}
+
+.temp {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #ffffff;
+}
+.temp i {
+  padding: 10px;
+}
+
+.top-1,
+.top-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-1 p,
+.top-2 p {
+  padding: 10px;
+  margin: 0.5rem;
+  border: 3px solid ghostwhite;
+}
+.top-2 p {
+  padding: 10px 32px;
+}
+p .icon {
+  padding: 0 2px;
+  font-size: 2rem;
+}
